@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".color").highlight();
+
+                $(".color1").highlight({ background:"yellow" });
+
+                $("a").showLink();
+
+                $(".round").changeShpe();
+                $(".round1").changeShpe();
+            });
+        </script>
+        <style>
+            .roundcolor{
+                background-color: pink;
+                transition:background-color 2s;
+
+            }
+            .roundcolor:hover{
+                background-color: red;
+            }
+            .round{
+                width: auto;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="color">I this is text hihjlight test</div>
+        <div class="color1">I this is text hihjlight2 test</div>
+        <div> <a clsss="showlink" href="index.html">This page link</a> </div>
+        <div class="round">Change color</div>
+        <div class="round">Change color</div>
+
+    </body>
+</html>

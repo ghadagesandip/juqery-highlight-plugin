@@ -6,7 +6,7 @@
     "sandip ghadage <ghadagesandip@gmail.com>"
   ],
   "license": "MIT",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
